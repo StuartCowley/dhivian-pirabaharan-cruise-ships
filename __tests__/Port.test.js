@@ -15,13 +15,10 @@ describe('Port', () => {
     });
 
     it('check port name', () => {
-      // const port = new Port('Dover');
       expect(port.name).toBe('Dover');
     });
     
     it('can add a ship', () => {
-      //const port = new Port('Dover');
-      //const ship = {};
       port.addShip(ship);
   
       expect(port.name).toBe('Dover');
@@ -29,7 +26,6 @@ describe('Port', () => {
     });
   
     it('can remove a ship', () => {
-      //const port = new Port('Dover');
       const titanic = {};
       const queenMary = {};
   
